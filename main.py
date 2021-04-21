@@ -3,7 +3,7 @@ def check_ID(id_num):
     weight = 1
     
     if len(id_num) != 9:
-        print("invalid ID")
+        print("length is not valid")
       
     else
         for ch in id_num[0:-1]:
